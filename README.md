@@ -1,5 +1,5 @@
 # Scalabase Conf 14 May 2021
-ScalaBase is a new mini-conference that will run on the 14th of May, right before this year's ScalaCon. 
+Scalabase is a new mini-conference that will run on the 14th of May, right before this year's ScalaCon. 
 It's aimed at developers who are relatively new to Scala (<= 3 years experience). 
 
 ## Vision
