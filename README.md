@@ -21,6 +21,10 @@ We want to increase the pool of potential speakers by providing mentoring to hel
 If you know someone who you think could benefit from a bit of help to prepare a talk, and fit our criteria, please get in touch. 
 If you are such a person, please get in touch as well! Our email address is scalabase@googlegroups.com.
 
+Also, we would love to hear from more senior Scala developers who have given talks aimed at beginner Scala devs in the past.
+
+In this case, we offer speakers the opportunity to practice their talk with a couple of junior Scala developers to ensure it's as accessible to juniors as possible.
+
 ## Mentors
 We're looking for Scala developers who are interested in mentoring a junior dev on preparing a talk. 
 We are looking for experienced developers who are willing to dedicate an hour a week for 3-4 weeks to guide and give advice to a junior colleague. 
