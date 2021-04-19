@@ -30,7 +30,7 @@ If you are such a person (or you know someone who would be interested), please g
 ## Attendees
 This conference is free! Registration and sign-up details will be available soon. 
 
-It will run on Friday 14 May in UK time, the exact times are TBD and it will be online!
+It will run on Friday 14 May in UK time (sometime between 10am - 4pm, we will confirm exact times soon). It will be online!
 
 ## Contact us
 Our email address is scalabase@googlegroups.com
