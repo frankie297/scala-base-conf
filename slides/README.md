@@ -9,7 +9,7 @@ Want to make your slides look extra sharp at Scalabase? While use of these is op
 
 ## Reveal.js
 
-This is the base template for [reveal.js](/reveal) that you can use in your talk.
+This is the base template for [reveal.js](/slides/reveal) that you can use in your talk.
 
 ## Google Slides
 
@@ -18,7 +18,7 @@ This is the base template for [Google Slides](https://docs.google.com/presentati
 
 ## Keynote
 
-This is the base template for [Keynote](keynote/scalabase-slide.zip) that you can use in your talk.
+This is the base template for [Keynote](/slides/keynote/scalabase-slide.zip) that you can use in your talk.
 
 
 ## Resources
