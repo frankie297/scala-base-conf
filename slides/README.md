@@ -18,7 +18,7 @@ This is the base template for [Google Slides](https://docs.google.com/presentati
 
 ## Keynote
 
-This is the base template for [Keynote](/slides/keynote/scalabase-slide.zip) that you can use in your talk.
+This is the base template for [Keynote](/slides/keynote/Scalabase-slide.zip) that you can use in your talk.
 
 
 ## Resources
