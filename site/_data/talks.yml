@@ -3,28 +3,32 @@ talks:
 - title: Talks
   id: talks
 
-  talkslist:
+  talks-list:
 
-    - title: Building a Functional Network Client with Scala
-      name: Nick Carton
-      avatar: /img/assets/icon-conference.svg
-      time: 10:00 - 10:40
-      description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    - id: 1
+      title: "Recursion in Scala"
+      time: "00:00 - 00:00"
 
-    - title: Building a Functional Network Client with Scala
-      name: Nick Carton
-      avatar: /img/assets/icon-conference.svg
-      time: 10:00 - 10:40
-      description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    - id: 2
+      title: "Recursion in Scala"
+      time: "00:00 - 00:00"
 
-    - title: Building a Functional Network Client with Scala
-      name: Nick Carton
-      avatar: /img/assets/icon-conference.svg
-      time: 10:00 - 10:40
-      description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    - id: 3
+      title: "Encoding in Scala 3"
+      time: "00:00 - 00:00"
 
-    - title: Building a Functional Network Client with Scala
-      name: Nick Carton
-      avatar: /img/assets/icon-conference.svg
-      time: 10:00 - 10:40
-      description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    - id: 4
+      title: "Talk to be determined"
+      time: "00:00 - 00:00"
+
+    - id: 5
+      title: "Generating Data Models with Scalameta"
+      time: "00:00 - 00:00"
+
+    - id: 6
+      title: "What I Wish I'd Known When Learning Scala"
+      time: "00:00 - 00:00"
+
+    - id: 7
+      title: "FP: the good, the bad, the ugly"
+      time: "00:00 - 00:00"

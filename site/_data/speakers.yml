@@ -1,0 +1,57 @@
+speakers:
+
+- title: Speakers
+  id: speakers
+
+  speakers-list:
+
+    - id-speaker: 1
+      name: "Frankie Hammond"
+      bio: "Frankie is a software engineer at the Guardian. She used to be a graphic designer and taught herself how to code."
+      avatar:
+      social:
+        - {name: "twitter", link: "https://twitter.com/frankie_hammond", icon: ""}
+        - {name: "github", link: "https://github.com/frankie297", icon: ""}
+        - {name: "linkedin", link: "https://www.linkedin.com/in/francesca-hammond-044a3a21/?originalSubdomain=uk", icon: ""}
+
+    - id-speaker: 2
+      name: "Marjan Kalanaki"
+      bio: "Marjan is a software engineer at the Guardian. Prior to this she worked as a developer at Asos and the Trainline. She has a degree in Sound Design Technology."
+      avatar:
+      social:
+        - {name: "twitter", link: "https://twitter.com/marji_sound", icon: ""}
+        - {name: "github", link: "https://github.com/marjisound", icon: ""}
+        - {name: "linkedin", link: "https://www.linkedin.com/in/marjan-kalanaki-44084449/", icon: ""}
+
+    - id-speaker: 3
+      name: "Emily Misoni"
+      bio: "Emily is an Associate Data Engineer at Just Eat."
+      social:
+        - {name: "linkedin", link: "https://www.linkedin.com/in/emily-m-ab83741ab/", icon: ""}
+
+    - id-speaker: 4
+      name: "Asjad Baig"
+      bio: "Emily is an Associate Data Engineer at Just Eat."
+      social:
+        - {name: "twitter", link: "https://twitter.com/AsjadSB", icon: ""}
+        - {name: "linkedin", link: "https://www.linkedin.com/in/asjad-baig-28b723129/?originalSubdomain=in", icon: ""}
+
+    - id-speaker: 5
+      name: "Daniel Oakey"
+      bio: "Daniel is a Scala software engineer working at Quantexa in central London. There, he works on tools for modelling and processing data."
+
+    - id-speaker: 6
+      name: "Noel Markham"
+      bio: "Noel is a lead software engineer at 47 Degrees. He started out as a Java developer before discovering Scala in 2012. He's worked across many industries, including games, fashion, television and finance. When not writing code he can be found playing board games, or running somewhere."
+      social:
+        - {name: "twitter", link: "https://twitter.com/noelmarkham", icon: ""}
+        - {name: "github", link: "https://github.com/noelmarkham", icon: ""}
+        - {name: "linkedin", link: "https://www.linkedin.com/in/noelmarkham/", icon: ""}
+
+    - id-speaker: 7
+      name: "Daniela Sfregola"
+      bio: "Daniela is an active contributor to the Scala Community, author of Get Programming with Scala and maintainer of open source projects (the most popular ones are twitter4s and random-data-generator). Daniela is also co-organizer of the London Scala User Group (LSUG) Meetup."
+      social:
+        - {name: "twitter", link: "https://twitter.com/danielasfregola", icon: ""}
+        - {name: "github", link: "https://github.com/DanielaSfregola", icon: ""}
+        - {name: "linkedin", link: "https://www.linkedin.com/in/danielasfregola/", icon: ""}

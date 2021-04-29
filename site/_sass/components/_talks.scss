@@ -9,6 +9,13 @@
     @include col-2;
     .talk-item {
       @extend .card;
+      display: flex;
+      flex-direction: row;
+      .talk-item-avatar {
+        width: $base-point-grid * 58;
+        margin-right: 40px;
+      }
+      .talk-item-content {}
     }
   }
 }
