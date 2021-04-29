@@ -1,0 +1,44 @@
+// Variables
+// -----------------------------------------------
+// -----------------------------------------------
+
+// Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@800&display=swap');
+// Colors
+$brand-primary: #DE3423;
+$gray-primary: #0D1D31;
+$white: #ffffff;
+
+$link-color: $brand-primary;
+$link-hover: darken($brand-primary, 4%);
+
+// Typography
+$base-font-family: 'Open Sans', sans-serif;;
+$heading-font-family: 'Raleway', sans-serif;
+$base-font-color: rgba($gray-primary, 0.85);
+$heading-font-color: $gray-primary;
+$base-font-size: 16px;
+$base-line-height: 1.6;
+$heading-line-height: 1.3;
+$font-weight-regular: 400;
+$font-weight-bold: 700;
+$font-weight-extrabold: 800;
+
+// Sizes
+$base-point-grid: 0.25rem;
+$size-max-width: 1080px;
+// Animations
+$base-duration: 350ms;
+$base-timing: ease;
+// Layout
+
+$grid-line-base: $base-point-grid * 8;
+$grid-line-large: $base-point-grid * 10;
+// Breakpoint
+$bp-small: 480px;
+$bp-medium: 768px;
+$bp-large: 992px;
+$bp-xlarge: 1130px;
+
+// Shadow
+$border-color: rgba($gray-primary, 0.1);

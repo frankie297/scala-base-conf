@@ -1,0 +1,24 @@
+// Talks
+// -----------------------------------------------
+// -----------------------------------------------
+
+#site-talks {
+  background: rgba($gray-primary, 0.05);
+  .talk-list {
+    @include grid;
+    @include col-2;
+    .talk-item {
+      @extend .card;
+    }
+  }
+}
+
+// Responsive
+@include bp(medium) {
+  #site-talks {
+    .talk-list {
+      @include col-1;
+      gap: $grid-line-large;
+    }
+  }
+}

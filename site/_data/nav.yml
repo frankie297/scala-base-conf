@@ -1,0 +1,15 @@
+brand:
+  navbar-brand: /img/assets/navbar-brand.svg
+
+nav:
+  - title: About
+    url: "#about"
+
+  - title: Talks
+    url: "#talks"
+
+  - title: Speakers
+    url: "#speakers"
+
+  - title: Sponsors
+    url: "#sponsors"

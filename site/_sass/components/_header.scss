@@ -1,0 +1,52 @@
+// Header
+// -----------------------------------------------
+// -----------------------------------------------
+#masthead {
+  margin-top: $base-point-grid * 28; // 112px
+  height: $base-point-grid * 150; // 600px
+  background: url("../img/assets/masthead-background.svg") $gray-primary no-repeat center center;
+  .masthead-inner {
+    padding-top: $base-point-grid * 31; // 124px
+    margin: 0 auto; // 124px
+    max-width: $base-point-grid * 224; // 896px
+    text-align: center;
+    color: $white;
+    h1 {
+      font-size: 3.375rem;
+      color: $white;
+    }
+
+    p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: $base-point-grid * 8 0;
+      font-size: 1.125rem;
+      text-transform: uppercase;
+
+      i {
+        font-size: 1.5rem;
+        margin-right: $base-point-grid * 4;
+      }
+
+      span {
+        font-weight: $font-weight-bold;
+        letter-spacing: 3px;
+      }
+    }
+    .button {
+      background-color: $brand-primary;
+      box-shadow: 0 $base-point-grid darken($brand-primary, 20%);
+      transition: $base-duration $base-timing;
+      transition-property: background-color, box-shadow;
+      &:hover {
+        background: darken($brand-primary, 8%);
+      }
+
+      &:active {
+        background: darken($brand-primary, 16%);
+        box-shadow: none;
+      }
+    }
+  }
+}

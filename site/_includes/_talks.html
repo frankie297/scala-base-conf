@@ -1,0 +1,17 @@
+<section id="site-talks">
+
+  <div class="wrapper">
+    {% for item in site.data.talks.talks %}
+    <h2 id="{{item.id}}">{{item.title}}</h2>
+    <div class="talk-list">
+      {% for entry in item.talkslist %}
+      <div class="talk-item">
+        <div><img src="{{ site.baseurl }}{{ entry.avatar }}" title="{{ entry.title }}" /></div>
+        <h3>{{entry.title}}</h3>
+        <p>{{entry.description}}</p>
+      </div>
+      {% endfor %}
+    </div>
+    {% endfor %}
+  </div>
+</section>

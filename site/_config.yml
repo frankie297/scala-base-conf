@@ -1,0 +1,22 @@
+title: Scalabase
+#-------------------------
+name: Scalabase
+#-------------------------
+description: Scalabase is a conference for developers in the early stages of their Scala journey
+#-------------------------
+author: 47 Degrees
+keywords:
+#-------------------------
+url:
+#-------------------------
+markdown: kramdown
+sass:
+    sass_dir: _sass
+    style: compressed
+#-------------------------
+baseurl: "/scalabase"
+#-------------------------
+permalink: pretty
+#-------------------------
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile', '.bundle', 'extra']
+#-------------------------
