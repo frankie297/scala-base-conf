@@ -1,0 +1,47 @@
+// Talks
+// -----------------------------------------------
+// -----------------------------------------------
+
+#site-talks {
+  background: rgba($gray-primary, 0.05);
+  .talk-list {
+    @include grid;
+    @include col-2;
+    .talk-item {
+      @extend .card;
+      display: flex;
+      flex-direction: row;
+      .talk-item-avatar {
+        margin-right: $base-point-grid * 8;
+        img {
+          width: $base-point-grid * 18;
+          height: auto;
+          border-radius: 100%;
+        }
+
+      }
+      .talk-item-content {
+        .talk-speaker {
+          margin: $base-point-grid * 2 0;
+          font-family: $heading-font-family;
+          color: $heading-font-color;
+          text-transform: uppercase;
+          letter-spacing: $base-point-grid / 2;
+        }
+        .talk-date {
+          color: $brand-primary;
+        }
+      }
+    }
+  }
+}
+
+// Responsive
+@include bp(medium) {
+  #site-talks {
+    .talk-list {
+      @include col-1;
+      gap: $grid-line-large;
+    }
+  }
+}

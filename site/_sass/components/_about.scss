@@ -1,0 +1,26 @@
+// About
+// -----------------------------------------------
+// -----------------------------------------------
+#site-about {
+  .about-list {
+    @include grid;
+    @include col-3;
+    .about-item {
+      text-align: center;
+      h3 {
+        margin: $base-point-grid * 6 0 $base-point-grid * 3 0;
+      }
+    }
+  }
+}
+
+// Responsive
+
+@include bp(medium) {
+  #site-about {
+    .about-list {
+    @include col-1;
+      gap: $grid-line-large;
+    }
+  }
+}

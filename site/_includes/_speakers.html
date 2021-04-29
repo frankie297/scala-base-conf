@@ -1,0 +1,8 @@
+<section id="speakers">
+  {% for item in site.data.speakers.speakers %}
+  <h2 id="{{item.id-talks}}">{{item.title}}</h2>
+    {% for entry in item.speakers-list %}
+  <p class="speaker-name">{{entry.name}}</p>
+    {% endfor %}
+  {% endfor %}
+</section>

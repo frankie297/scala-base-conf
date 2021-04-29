@@ -1,0 +1,41 @@
+talks:
+
+- title: Talks
+  id: talks
+
+  talks-list:
+
+    - id-talk: 1
+      title: "Recursion in Scala"
+      time: "00:00 - 00:00"
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..."
+
+    - id-talk: 2
+      title: "Recursion in Scala"
+      time: "00:00 - 00:00"
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..."
+
+    - id-talk: 3
+      title: "Encoding in Scala 3"
+      time: "00:00 - 00:00"
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..."
+
+    - id-talk: 4
+      title: "Talk to be determined"
+      time: "00:00 - 00:00"
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..."
+
+    - id-talk: 5
+      title: "Generating Data Models with Scalameta"
+      time: "00:00 - 00:00"
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..."
+
+    - id-talk: 6
+      title: "What I Wish I'd Known When Learning Scala"
+      time: "00:00 - 00:00"
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..."
+
+    - id-talk: 7
+      title: "FP: the good, the bad, the ugly"
+      time: "00:00 - 00:00"
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..."

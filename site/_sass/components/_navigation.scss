@@ -1,0 +1,58 @@
+// Navigation
+// -----------------------------------------------
+// -----------------------------------------------
+
+#navigation {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: $base-point-grid * 8 0;
+  background: $white;
+  z-index: 1;
+  transition: padding $base-duration $base-timing;
+
+  &.navigation-scroll {
+  padding: $base-point-grid * 5 0;
+}
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .navbar-brand {
+      img {
+        display: block;
+      }
+    }
+
+    .navbar-nav {
+      display: flex;
+
+      li {
+        &:not(:last-child) {
+          margin-right: $base-point-grid * 10;
+        }
+        a {
+          font-family: $heading-font-family;
+          font-size: 0.938rem;
+          text-transform: uppercase;
+          color: $base-font-color;
+
+          &:visited {
+            color: $base-font-color;
+          }
+
+          &:hover {
+            text-decoration: none;
+            color: $link-hover;
+          }
+
+          &:active {
+            color: $link-hover;
+          }
+        }
+      }
+    }
+  }
+}

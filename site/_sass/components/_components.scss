@@ -1,0 +1,44 @@
+// Componentes
+// -----------------------------------------------
+// -----------------------------------------------
+
+// Layout
+// -----------------------------------------------
+.wrapper {
+  padding: 0 $base-point-grid * 6;
+  margin: 0 auto;
+  max-width: $size-max-width;
+}
+
+// Buttons
+// -----------------------------------------------
+.button {
+  display: inline-block;
+  padding: $base-point-grid * 5 $base-point-grid * 8;
+  font-family: $heading-font-family;
+  font-size: 0.938rem;
+  font-weight: $font-weight-extrabold;
+  color: $white;
+  text-transform: uppercase;
+
+  &:visited {
+    color: $white;
+  }
+
+  &:hover {
+    color: $white;
+    text-decoration: none;
+  }
+
+  &:active {
+    color: $white;
+  }
+}
+
+// Card
+// -----------------------------------------------
+.card {
+  padding: $base-point-grid * 8;
+  background: $white;
+  box-shadow: 0 2px 16px 0 rgba($gray-primary, 0.04);
+}

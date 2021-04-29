@@ -1,0 +1,91 @@
+// Base
+// -----------------------------------------------
+// -----------------------------------------------
+
+
+// Body, html
+// -----------------------------------------------
+html {
+  box-sizing: border-box;
+  font-size: $base-font-size;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+
+// Typography
+// -----------------------------------------------
+body {
+  color: $base-font-color;
+  background: $white;
+  font-family: $base-font-family;
+  line-height: $base-line-height;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: $heading-font-family;
+  font-weight: $font-weight-extrabold;
+  color: $heading-font-color;
+  line-height: $heading-line-height;
+}
+
+h2 {
+  position: relative;
+  margin-bottom: $base-point-grid * 13;
+  font-size: 2rem;
+  text-align: center;
+
+  &::after {
+    display: block;
+    margin: $base-point-grid * 3 auto 0 auto;
+    content: "";
+    width: $base-point-grid * 7;
+    height: $base-point-grid;
+    background: $brand-primary;
+
+  }
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+  transition: color $base-duration $base-timing;
+
+  &:visited {
+    color: $link-color;
+  }
+
+  &:hover {
+    color: $link-hover;
+    text-decoration: underline;
+  }
+
+  &:active {
+    color: $link-color;
+  }
+}
+
+// Layout
+// -----------------------------------------------
+
+section {
+  padding: $base-point-grid * 23 0;
+}

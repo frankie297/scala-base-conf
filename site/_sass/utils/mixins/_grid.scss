@@ -1,0 +1,25 @@
+// Grid
+// -----------------------------------------------
+// -----------------------------------------------
+
+@mixin grid {
+  display: grid;
+  gap: $grid-line-base;
+  grid-auto-rows: 1fr;
+}
+
+@mixin col-1 {
+  grid-template-columns: 1fr;
+}
+
+@mixin col-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@mixin col-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@mixin col-4 {
+  grid-template-columns: repeat(4, 1fr);
+}

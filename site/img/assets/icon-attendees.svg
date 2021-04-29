@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-atendees</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="atendee" transform="translate(15.000000, 0.000000)" fill-rule="nonzero">
+            <polygon id="path" fill="#0D1D31" points="42 16 0 16 0 70 42 70"></polygon>
+            <polygon id="path" fill="#FFFFFF" points="34 26 8 26 8 52 34 52"></polygon>
+            <polygon id="path" fill="#0D1D31" points="26 0 32 0 24 10 18 10"></polygon>
+            <polygon id="path" fill="#FFFFFF" points="26 10 16 10 16 22 26 22"></polygon>
+            <polygon id="path" fill="#DE3423" points="24 12 18 12 18 20 24 20"></polygon>
+            <polygon id="path" fill="#DE3423" points="16 0 10 0 18 10 24 10"></polygon>
+            <polygon id="path" fill="#DE3423" points="30 45 12.4 45 12.4 52 30 52"></polygon>
+            <path d="M21,42.8 C24.8108,42.8 27.9,39.7108 27.9,35.9 C27.9,32.0892 24.8108,29 21,29 C17.1892,29 14.1,32.0892 14.1,35.9 C14.1,39.7108 17.1892,42.8 21,42.8 Z" id="path" fill="#DE3423"></path>
+            <polygon id="path" fill="#FFFFFF" points="34 57 8 57 8 60 34 60"></polygon>
+            <polygon id="path" fill="#FFFFFF" points="28 63 14 63 14 66 28 66"></polygon>
+        </g>
+    </g>
+</svg>
