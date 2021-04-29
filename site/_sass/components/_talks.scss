@@ -12,10 +12,26 @@
       display: flex;
       flex-direction: row;
       .talk-item-avatar {
-        width: $base-point-grid * 58;
-        margin-right: 40px;
+        margin-right: $base-point-grid * 8;
+        img {
+          width: $base-point-grid * 18;
+          height: auto;
+          border-radius: 100%;
+        }
+
       }
-      .talk-item-content {}
+      .talk-item-content {
+        .talk-speaker {
+          margin: $base-point-grid * 2 0;
+          font-family: $heading-font-family;
+          color: $heading-font-color;
+          text-transform: uppercase;
+          letter-spacing: $base-point-grid / 2;
+        }
+        .talk-date {
+          color: $brand-primary;
+        }
+      }
     }
   }
 }

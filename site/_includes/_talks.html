@@ -5,20 +5,21 @@
     <div class="talk-list">
       {% for talkslist in talk.talks-list %}
       <div class="talk-item">
-        <div class="talk-item-avatar"></div>
+        {% for speakers in site.data.speakers.speakers %}
+          {% for speakerslist in speakers.speakers-list %}
+          {% if speakerslist.id-speaker == talkslist.id-talk  %}
+        <div class="talk-item-avatar">
+          <img src="{{ site.baseurl }}{{speakerslist.avatar}}" title="{{speakerslist.name}}"/>
+        </div>
         <div class="talk-item-content">
           <h3>{{talkslist.title}}</h3>
-          {% for speakers in site.data.speakers.speakers %}
-            {% for speakerslist in speakers.speakers-list %}
-            {% if speakerslist.id-speaker == talkslist.id-talk  %}
-          <p class="speaker-name">{{speakerslist.name}}</p>
-          <p class="speaker-name">{{talkslist.time}}</p>
-            {% endif %}
-            {% endfor %}
-          {% endfor %}
+          <p class="talk-speaker">{{speakerslist.name}}</p>
           <p class="talk-date">{{talkslist.time}}</p>
           <p class="talk-description">{{talkslist.description}}</p>
         </div>
+        {% endif %}
+        {% endfor %}
+        {% endfor %}
       </div>
       {% endfor %}
     </div>
