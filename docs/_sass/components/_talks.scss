@@ -7,7 +7,7 @@
 
   .talks-list {
     @include grid;
-    @include col-2;
+    @include col-1;
 
     .talk-item {
       @extend .card;
@@ -49,16 +49,9 @@
 // Responsive
 @include bp(medium) {
   #site-talks {
-    .talk-list {
+    .talks-list {
       @include col-1;
-      gap: $grid-line-large;
-    }
-  }
-}
-// Responsive
-@include bp(medium) {
-  #site-talks {
-    .talk-list {
+
       .talk-item {
         .talk-item-avatar {
           img {

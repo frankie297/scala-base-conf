@@ -2,12 +2,14 @@
 // -----------------------------------------------
 // -----------------------------------------------
 #masthead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: $base-point-grid * 28; // 112px
   height: $base-point-grid * 150; // 600px
   background: url("../img/assets/masthead-background.svg") $gray-primary no-repeat center center;
   .masthead-inner {
-    padding-top: $base-point-grid * 31; // 124px
-    margin: 0 auto; // 124px
+    padding: 0 $base-point-grid * 8;
     max-width: $base-point-grid * 224; // 896px
     text-align: center;
     color: $white;
@@ -46,6 +48,17 @@
       &:active {
         background: darken($brand-primary, 16%);
         box-shadow: none;
+      }
+    }
+  }
+}
+
+@include bp(medium) {
+  #masthead {
+      height: $base-point-grid * 130;
+    .masthead-inner {
+      h1 {
+        font-size: 2.1rem
       }
     }
   }

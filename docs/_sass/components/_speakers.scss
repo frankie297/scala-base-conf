@@ -1,13 +1,50 @@
 // Speakers
 // -----------------------------------------------
 // -----------------------------------------------
+
 #site-speakers {
   background: rgba($gray-primary, 0.08);
+
   .speakers-list {
     @include grid;
-    @include col-3;
+    @include col-2;
+
     .speaker-item {
-        @extend .card;
+      @extend .card;
+      text-align: center;
+
+      img {
+        width: $base-point-grid * 24;
+        margin-bottom: $base-point-grid * 4;
+        border-radius: 100%;
+      }
+
+      .speaker-name {
+        margin-bottom: $base-point-grid * 2;
+      }
+
+      .speaker-bio {
+        margin-bottom: $base-point-grid * 4;
+        font-size: 0.938rem;
+      }
+      .speaker-social {
+        display: flex;
+        justify-content: center;
+        font-size: 1.375rem;
+        li {
+          &:not(:last-child)  {
+            margin-right: $base-point-grid * 3;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include bp(medium) {
+  #site-speakers {
+    .speakers-list {
+      @include col-1;
     }
   }
 }
