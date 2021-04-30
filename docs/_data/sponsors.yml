@@ -1,0 +1,12 @@
+sponsors:
+
+- title: Sponsors
+  id: sponsors
+
+  sponsors-list:
+
+    - title: Sponsored by
+      sponsor: /img/assets/icon-conference.svg
+
+    - title: Supported by
+      sponsor: /img/assets/icon-conference.svg
