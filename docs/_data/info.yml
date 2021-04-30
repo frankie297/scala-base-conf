@@ -3,3 +3,4 @@ info-conf:
   cta-title: "Register for free"
   cta-url: "https://www.eventbrite.co.uk/e/scalabase-a-conference-for-early-career-scala-developers-tickets-152355692979"
   register-text: "Interested in our conference? It's free"
+  speaking-info: "Interested in speaking at a forthcoming Scalabase conference? <a href='#'>Sign up here</a>"

@@ -52,3 +52,12 @@
   background: $white;
   box-shadow: 0 2px 16px 0 rgba($gray-primary, 0.04);
 }
+
+
+// Responsive
+
+@include bp(medium) {
+  .card {
+    padding: $base-point-grid * 6;
+  }
+}
