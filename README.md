@@ -1,4 +1,4 @@
-# Scalabase Conf 14 May 2021
+# Scalabase Conf 14 May 2021 
 Scalabase is a new mini-conference that will run on the 14th of May, right before this year's ScalaCon. 
 It's aimed at developers who are relatively new to Scala (<= 3 years experience). 
 
