@@ -1,8 +1,8 @@
 <section id="site-talks">
   <div class="wrapper">
     {% for talk in site.data.talks.talks %}
-    <h2 id="{{talk.id-talks}}">{{talk.title}}</h2>
-    <div class="talk-list">
+    <h2 id="{{talk.id}}">{{talk.title}}</h2>
+    <div class="talks-list">
       {% for talkslist in talk.talks-list %}
       <div class="talk-item">
         {% for speakers in site.data.speakers.speakers %}
@@ -14,7 +14,7 @@
         <div class="talk-item-content">
           <h3>{{talkslist.title}}</h3>
           <p class="talk-speaker">{{speakerslist.name}}</p>
-          <p class="talk-date">{{talkslist.time}}</p>
+          <p class="talk-date"><i class="fas fa-clock"></i>{{talkslist.time}}</p>
           <p class="talk-description">{{talkslist.description}}</p>
         </div>
         {% endif %}

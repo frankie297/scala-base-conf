@@ -1,0 +1,13 @@
+// Speakers
+// -----------------------------------------------
+// -----------------------------------------------
+#site-speakers {
+  background: rgba($gray-primary, 0.08);
+  .speakers-list {
+    @include grid;
+    @include col-3;
+    .speaker-item {
+        @extend .card;
+    }
+  }
+}
