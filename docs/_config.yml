@@ -14,7 +14,7 @@ sass:
     sass_dir: _sass
     style: compressed
 #-------------------------
-baseurl: ""
+baseurl: "/scala-base-conf/"
 #-------------------------
 permalink: pretty
 #-------------------------
