@@ -5,7 +5,7 @@
 @mixin grid {
   display: grid;
   gap: $grid-line-base;
-  grid-auto-rows: 1fr;
+
 }
 
 @mixin col-1 {

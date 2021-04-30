@@ -4,6 +4,16 @@
 
 // Layout
 // -----------------------------------------------
+[id] {
+  scroll-margin-top: 9rem;
+}
+
+@include bp(medium) {
+  [id] {
+    scroll-margin-top: 10rem;
+  }
+}
+
 .wrapper {
   padding: 0 $base-point-grid * 6;
   margin: 0 auto;
@@ -38,7 +48,7 @@
 // Card
 // -----------------------------------------------
 .card {
-  padding: $base-point-grid * 7;
+  padding: $base-point-grid * 8;
   background: $white;
   box-shadow: 0 2px 16px 0 rgba($gray-primary, 0.04);
 }

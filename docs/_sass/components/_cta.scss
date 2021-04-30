@@ -2,6 +2,23 @@
 // -----------------------------------------------
 // -----------------------------------------------
 #site-cta {
-  height: 300px;
-  background: $gray-primary;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: $base-point-grid * 56; // 224px
+  background: url("../img/assets/cta-background.svg") $gray-primary no-repeat center center;
+  h3 {
+    margin-bottom: $base-point-grid * 8;
+    color: $white;
+  }
+  .button {
+    border: 1px solid $white;
+    transition: $base-duration $base-timing;
+    transition-property: background-color, color;
+    &:hover {
+      color: $brand-primary;
+      background: $white;
+    }
+  }
 }

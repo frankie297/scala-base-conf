@@ -13,6 +13,7 @@
 
   &.navigation-scroll {
   padding: $base-point-grid * 5 0;
+  box-shadow: 0 2px 20px 0 rgba($gray-primary, 0.1);
 }
 
   .nav {
@@ -50,6 +51,35 @@
 
           &:active {
             color: $link-hover;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Responsive
+
+@include bp(medium) {
+
+  #navigation {
+    .nav {
+      flex-direction: column;
+      justify-content: space-between;
+
+      .navbar-brand {
+        img {
+          height: $base-point-grid * 9;
+          width: auto;
+
+          margin-bottom: $base-point-grid * 5;
+        }
+      }
+
+      .navbar-nav {
+        li {
+          &:not(:last-child) {
+            margin-right: $base-point-grid * 6;
           }
         }
       }
