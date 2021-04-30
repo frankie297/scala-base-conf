@@ -6,36 +6,39 @@ talks:
   talks-list:
 
     - id-talk: 1
-      title: "Recursion in Scala"
-      time: "00:00 - 00:00"
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..."
+      title: "Conference welcome"
+      time: "09:50 - 10:00"
 
     - id-talk: 2
       title: "Recursion in Scala"
-      time: "00:00 - 00:00"
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..."
+      time: "10:00 - 10:30"
+      description: "A beginners guide to recursion in Scala"
 
     - id-talk: 3
-      title: "Encoding in Scala 3"
-      time: "00:00 - 00:00"
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..."
+      title: "Variance & Types"
+      time: "10:35 - 11:05"
+      description: "What is Variance, the connection between Types and Variance and how Scala supports it? This talk will deep dive into types of Variances and how they relate to Functions."
 
     - id-talk: 4
-      title: "Talk to be determined"
-      time: "00:00 - 00:00"
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..."
+      title: "FP: the good, the bad, the ugly"
+      time: "11:10 - 11:40"
+      description: "You are about to fall in love with Functional Programming, if not already. You are going to learn the good parts that are going to make your day-to-day life easier. But since nobody is perfect - not even FP -, you are also going to see its bad and ugly parts, and you'll discover how to deal with them: from learning challenges to performance issues on the JVM."
 
     - id-talk: 5
-      title: "Generating Data Models with Scalameta"
-      time: "00:00 - 00:00"
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..."
+      title: "Side Effects Don’t Play Nice - A Comparison of Initial Encoding vs Final Encoding in Scala 3"
+      time: "11:45 - 12:15"
+      description: "Scala 3 is a hot topic right now. Looking into the differences between initial encoding and final encoding in Scala 3, we will try to understand the relevant functional programming lessons learnt and identify appropriate solutions to tackle these."
 
     - id-talk: 6
-      title: "What I Wish I'd Known When Learning Scala"
-      time: "00:00 - 00:00"
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..."
+      title: "Generating Data Models with Scalameta"
+      time: "12:20 - 12:50"
+      description: "Sometimes, instead of providing users with a Scala API, we want to enable them to build data models using only configuration files. But how do we turn config into Scala code? In this talk, Daniel will explore the problem and a possible solution. We will learn how to use the Scalameta library to automatically generate Scala code based on a user's configuration."
 
     - id-talk: 7
-      title: "FP: the good, the bad, the ugly"
-      time: "00:00 - 00:00"
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..."
+      title: "What I Wish I'd Known When Learning Scala "
+      time: "12:55 - 13:25"
+      description: "In this talk, I'm going to cover a few things that might trip up a new Scala developer, including parametric polymorphism, immutability, referential transparency, typeclasses and some new functional programming techniques. I'll showing how these are different, why they are different and what benefits these things give."
+
+    - id-talk: 1
+      title: "Conference goodbye"
+      time: "13:25 - 13:30"
