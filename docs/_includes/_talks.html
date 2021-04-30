@@ -7,9 +7,11 @@
       <div class="talk-item">
         {% for speakers in site.data.speakers.speakers %}
           {% for speakerslist in speakers.speakers-list %}
-          {% if speakerslist.id-speaker == talkslist.id-talk  %}
+
+
+          {% if speakerslist.id-speaker == talkslist.id-talk %}
         <div class="talk-item-avatar">
-          <img src="{{ site.baseurl }}{{speakerslist.avatar}}" title="{{speakerslist.name}}"/>
+          <img src="{{speakerslist.avatar}}" title="{{speakerslist.name}}"/>
         </div>
         <div class="talk-item-content">
           <h3>{{talkslist.title}}</h3>
@@ -17,6 +19,7 @@
           <p class="talk-date"><i class="fas fa-clock"></i>{{talkslist.time}}</p>
           <p class="talk-description">{{talkslist.description}}</p>
         </div>
+
         {% endif %}
         {% endfor %}
         {% endfor %}
@@ -24,5 +27,6 @@
       {% endfor %}
     </div>
     {% endfor %}
+
   </div>
 </section>

@@ -39,6 +39,12 @@
       }
     }
   }
+
+  .speaking-link {
+    margin: $base-point-grid * 16 auto 0 auto;
+    max-width: $base-point-grid * 131; // 524px
+    text-align: center;
+  }
 }
 
 @include bp(medium) {

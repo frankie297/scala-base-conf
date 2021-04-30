@@ -1,0 +1,15 @@
+sponsors:
+
+- title: Sponsors
+  id: sponsors
+
+  sponsors-list:
+
+    - title: Sponsored by
+      sponsor:
+        - {name: "The Guardian", link: "https://www.theguardian.com/", logo: "/img/sponsors/the-guardian.svg"}
+
+    - title: Supported by
+      sponsor:
+        - {name: "47 Degrees", link: "https://www.47deg.com/", logo: "/img/sponsors/47-degrees.svg"}
+        - {name: "Scalacon", link: "http://www.scalacon.org/", logo: "/img/sponsors/scalacon.svg"}

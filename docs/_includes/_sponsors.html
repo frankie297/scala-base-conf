@@ -1,1 +1,19 @@
-<section id="site-sponsors"></section>
+<section id="site-sponsors">
+  <div class="wrapper">
+    {% for sponsor in site.data.sponsors.sponsors %}
+    <h2 id="{{sponsor.id}}">{{sponsor.title}}</h2>
+      <div class="sponsors-list">
+          {% for sponsorlist in sponsor.sponsors-list %}
+        <div class="sponsor-item">
+          <h3>{{sponsorlist.title}}</h3>
+          <div>
+            {% for sponsor in sponsorlist.sponsor %}
+            <a href="{{ sponsor.link }}" target="_blank"><img src="{{sponsor.logo}}" alt="{{ sponsor.name }}"></a>
+            {% endfor %}
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    {% endfor %}
+  </div>
+</section>

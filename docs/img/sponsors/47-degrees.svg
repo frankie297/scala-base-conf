@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>47-degrees</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.7">
+        <g id="47-degrees" fill-rule="nonzero">
+            <circle id="background" fill="#0D1D31" cx="28" cy="28" r="28"></circle>
+            <path d="M24.346,17.1453333 L11.7273333,34.678 L22.1013333,34.678 L22.1013333,38.5 L24.346,38.5 L24.346,34.678 L26.8333333,34.678 L26.8333333,32.6153333 L24.346,32.6153333 L24.346,17.1453333 Z M15.701,32.6153333 L22.1013333,23.667 L22.1013333,32.6153333 L15.701,32.6153333 Z M28.5833333,37.8023333 L30.3426667,38.9853333 L43.8713333,18.2676667 L29.008,18.2676667 L29.008,20.3303333 L40.0796667,20.3303333 L28.5833333,37.8023333 Z" id="47" fill="#FAFAFA"></path>
+        </g>
+    </g>
+</svg>
