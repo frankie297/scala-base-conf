@@ -23,7 +23,7 @@ speakers:
         - {name: "github", link: "https://github.com/frankie297"}
         - {name: "linkedin", link: "https://www.linkedin.com/in/francesca-hammond-044a3a21/?originalSubdomain=uk"}
 
-    - id-speaker: 2
+    - id-speaker: 
       name: "Marjan Kalanaki"
       bio: "Marjan is a software engineer at the Guardian. Prior to this she worked as a developer at Asos and the Trainline. She has a degree in Sound Design Technology."
       avatar: /img/speakers/marjan-kalanaki.jpg

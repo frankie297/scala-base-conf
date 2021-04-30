@@ -6,6 +6,11 @@
           {% for sponsorlist in sponsor.sponsors-list %}
         <div class="sponsor-item">
           <h3>{{sponsorlist.title}}</h3>
+          <div>
+            {% for sponsor in sponsorlist.sponsor %}
+            <a href="{{ sponsor.link }}" target="_blank"><img src="{{sponsor.logo}}" alt="{{ sponsor.name }}"></a>
+            {% endfor %}
+          </div>
         </div>
         {% endfor %}
       </div>

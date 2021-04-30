@@ -3,4 +3,46 @@
 // -----------------------------------------------
 #site-sponsors {
   background: rgba($gray-primary, 0.12);
+  .sponsors-list {
+    @include grid;
+    gap: 0;
+    @include col-2;
+    .sponsor-item {
+      text-align: center;
+      &:first-child {
+        border-right: 1px dashed rgba($gray-primary, 0.3);
+      }
+      h3 {
+        margin-bottom: $base-point-grid * 8;
+        font-size: 1rem;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
+      div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a {
+          &:nth-child(2) {
+            margin-left: $base-point-grid * 10;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Responsive
+@include bp(medium) {
+  #site-sponsors {
+    .sponsors-list {
+      @include col-1;
+        .sponsor-item {
+          &:first-child {
+            margin-bottom: $base-point-grid * 12;
+            border-right: none;
+          }
+        }
+    }
+  }
 }

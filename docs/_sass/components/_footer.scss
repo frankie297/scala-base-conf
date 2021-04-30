@@ -1,0 +1,43 @@
+// Footer
+// -----------------------------------------------
+// -----------------------------------------------
+#site-footer {
+  padding: $base-point-grid * 14 0;
+  color: $white;
+  background: $gray-primary;
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  img {
+    margin-bottom: $base-point-grid * 5;
+  }
+  p {
+    margin-bottom: $base-point-grid * 2;
+    max-width: $base-point-grid * 85;
+    font-size: 0.938rem;
+    text-align: center;
+    a {
+      text-decoration: underline;
+      color: rgba($white, 0.7);
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+  ul {
+    display: flex;
+    li {
+      font-size: 1.125rem;
+      &:first-child {
+        margin-right: $base-point-grid * 2;
+      }
+      a {
+        color: $white;
+
+      }
+    }
+  }
+}

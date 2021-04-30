@@ -11,6 +11,7 @@
   h3 {
     margin-bottom: $base-point-grid * 8;
     color: $white;
+    text-align: center;
   }
   .button {
     border: 1px solid $white;
@@ -19,6 +20,16 @@
     &:hover {
       color: $brand-primary;
       background: $white;
+    }
+  }
+}
+
+// Responsive
+
+@include bp(medium) {
+  #site-cta {
+    h3 {
+      padding: 0 $base-point-grid * 8;
     }
   }
 }
