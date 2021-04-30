@@ -14,7 +14,7 @@ sass:
     sass_dir: _sass
     style: compressed
 #-------------------------
-baseurl: "/scalabase"
+baseurl: "/scalabase/site/"
 #-------------------------
 permalink: pretty
 #-------------------------
