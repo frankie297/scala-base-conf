@@ -6,7 +6,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  padding: $base-point-grid * 8 0;
+  padding: $base-point-grid * 7 0;
   background: $white;
   z-index: 1;
   transition: padding $base-duration $base-timing;
@@ -69,7 +69,7 @@
 
       .navbar-brand {
         img {
-          height: $base-point-grid * 9;
+          height: $base-point-grid * 7;
           width: auto;
 
           margin-bottom: $base-point-grid * 5;
@@ -79,7 +79,11 @@
       .navbar-nav {
         li {
           &:not(:last-child) {
-            margin-right: $base-point-grid * 6;
+            margin-right: $base-point-grid * 4;
+          }
+
+          a {
+            font-size: 0.875rem;
           }
         }
       }
