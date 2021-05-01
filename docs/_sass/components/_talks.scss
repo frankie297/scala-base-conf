@@ -15,9 +15,7 @@
       flex-direction: row;
 
       &:first-child,
-      &:last-child {
-        //background: url("../img/assets/cta-background.svg")$white no-repeat center center;
-      }
+      &:last-child {}
 
       .talk-item-avatar {
         margin-right: $base-point-grid * 7;
