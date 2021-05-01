@@ -34,7 +34,7 @@ speakers:
 
     - id-speaker: 5
       name: "Emily Misoni"
-      bio: "Scala 3 is a hot topic right now. Looking into the differences between initial encoding and final encoding in Scala 3, we will try to understand the relevant functional programming lessons learnt and identify appropriate solutions to tackle these."
+      bio: "Emily is an Associate Data Engineer working in the Core Data Platform team at Just Eat Takeaway. Coming from an Electrical Engineering university background/having undertaken a range of internships in financial services, she found my passion for tech last year, and now spends her days coding in Python/Scala. "
       avatar: /img/speakers/emily-misoni.jpg
       social:
         - {name: "linkedin", link: "https://www.linkedin.com/in/emily-m-ab83741ab/"}
