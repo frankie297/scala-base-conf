@@ -41,7 +41,7 @@ speakers:
 
     - id-speaker: 3
       name: "Asjad Baig"
-      bio: "Emily is an Associate Data Engineer at Just Eat."
+      bio: "Asjad is a programmer currently working with ThoughtWorks. He is passionate about functional programming, open source and us currently trying to connect the dots with category theory!"
       avatar: /img/speakers/asjad-baig.jpg
       social:
         - {name: "twitter", link: "https://twitter.com/AsjadSB"}
