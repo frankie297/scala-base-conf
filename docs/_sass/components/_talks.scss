@@ -14,7 +14,11 @@
       display: flex;
       flex-direction: row;
 
-      &:first-child,
+      &:nth-child(2) {
+        margin-bottom: -$grid-line-base;
+        border-bottom: 1px dashed rgba($gray-primary, 0.14);
+      }
+      &:first-child {}
       &:last-child {}
 
       .talk-item-avatar {
@@ -62,7 +66,7 @@
         .talk-item-avatar {
           margin-right: $base-point-grid * 5;
           img {
-            width: $base-point-grid * 14;
+            width: $base-point-grid * 12;
             height: auto;
           }
         }
