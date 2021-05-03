@@ -18,8 +18,16 @@
         margin-bottom: -$grid-line-base;
         border-bottom: 1px dashed rgba($gray-primary, 0.14);
       }
-      &:first-child {}
-      &:last-child {}
+      &:first-child,
+      &:last-child {
+        h3 {
+          padding: 0 $base-point-grid * 2;
+          color: $white;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          background: $brand-primary;
+        }
+      }
 
       .talk-item-avatar {
         margin-right: $base-point-grid * 7;
