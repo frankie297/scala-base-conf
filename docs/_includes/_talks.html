@@ -4,12 +4,13 @@
     <h2 id="{{talk.id}}">{{talk.title}}</h2>
     <div class="talks-list">
       {% for talkslist in talk.talks-list %}
+      {% for speakers in site.data.speakers.speakers %}
+        {% for speakerslist in speakers.speakers-list %}
+
+
+        {% if speakerslist.id-speaker == talkslist.id-talk %}
       <div class="talk-item">
-        {% for speakers in site.data.speakers.speakers %}
-          {% for speakerslist in speakers.speakers-list %}
 
-
-          {% if speakerslist.id-speaker == talkslist.id-talk %}
         <div class="talk-item-avatar">
           <img src="{{speakerslist.avatar}}" title="{{speakerslist.name}}"/>
         </div>
@@ -20,10 +21,11 @@
           <p class="talk-description">{{talkslist.description}}</p>
         </div>
 
-        {% endif %}
-        {% endfor %}
-        {% endfor %}
+
       </div>
+      {% endif %}
+      {% endfor %}
+      {% endfor %}
       {% endfor %}
     </div>
     {% endfor %}
