@@ -7,7 +7,7 @@ talks:
 
     - id-talk: 1
       title: "Conference welcome"
-      time: "09:50 - 10:00"
+      time: "09:45 - 10:00"
 
     - id-talk: 2
       title: "Recursion in Scala"
