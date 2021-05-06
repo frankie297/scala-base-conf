@@ -1,0 +1,22 @@
+mentors:
+
+- title: Mentors
+  id: mentors
+
+  speakers-list:
+
+    - name: "Susie Colemen"
+      bio: "Susie is a software engineer at Spotify and is part of a team that focuses on defining what users can buy from Spotify. Previously she has worked at the BBC on the GoURMET Project which aimed to use and improve neural machine translation for low-resource language pairs and domains and at the Guardian on the Editorial Tools team. It was at the Guardian that she first started using Scala."
+      avatar: /img/speakers/susie-colemen.jpg
+
+    - name: "Chris Birchall"
+      bio: "Chris is a software developer at 47 Degrees. His first computer was an Amiga 500 and his first Scala was 2.7.3."
+      avatar: /img/speakers/chris-birchall.jpg
+
+    - name: "Jan Schulte"
+      bio: "Jan is a software engineer and functional programming geek. In the past he co-organised the Scala UG Düsseldorf and is a co-organiser of Lambdale conference."
+      avatar: /img/speakers/jan-schulte.jpg
+
+    - name: "Greg Dorrell"
+      bio: "Greg is a senior software engineer at Expedia Group. He started learning Scala in 2009 and is still enjoying learning more about it."
+      avatar: /img/speakers/greg-dorrell.jpg

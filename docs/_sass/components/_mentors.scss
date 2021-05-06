@@ -1,0 +1,136 @@
+// Mentors
+// -----------------------------------------------
+// -----------------------------------------------
+
+#site-mentors {
+  background: rgba($gray-primary, 0.12);
+
+  .mentors-list {
+    @include grid;
+    grid-auto-rows: 1fr;
+    position: relative;
+    //background: #ddd;
+    .mentor-item {
+      @extend .card;
+      background-image: url("../img/assets/mentors-background.svg");
+      background-repeat: no-repeat;
+      background-position: center top;
+      position: relative;
+      min-height: $base-point-grid * 90;
+      margin: 0 auto;
+      text-align: center;
+      max-width: 750px;
+
+      img {
+        width: $base-point-grid * 24;
+        margin-bottom: $base-point-grid * 4;
+        border-radius: 100%;
+      }
+
+      .mentor-name {
+        margin-bottom: $base-point-grid * 2;
+      }
+
+      .mentor-bio {
+        margin-bottom: $base-point-grid * 4;
+        font-size: 0.938rem;
+      }
+    }
+  }
+}
+//------------------
+/* Next & previous buttons */
+.next,
+.prev {
+  cursor: pointer;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 30%;
+  width: $base-point-grid * 10;
+  height: $base-point-grid * 10;
+  color: $brand-primary;
+  font-weight: bold;
+  font-size: 1.25rem;
+  transition: 0.6s ease;
+  border-radius: 100%;
+  user-select: none;
+  background: none;
+}
+
+.prev {
+  left: $base-point-grid * 6;
+}
+
+.next {
+  right: $base-point-grid * 6;
+}
+
+.next:hover,
+.prev:hover {
+  text-decoration: none;
+  background: rgba($gray-primary, 0.07);
+}
+
+.mentors-slide-paginate {
+  margin-top: $base-point-grid * 8;
+  text-align: center;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgba($gray-primary, 0.15);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: rgba($gray-primary, 0.5);
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+@include bp(medium) {
+  .next,
+  .prev {
+    top: $base-point-grid * 24;
+  }
+
+  #site-mentors {
+
+    .mentors-list {
+      @include grid;
+      .mentor-item {
+        background-position: center -10px;
+      }
+    }
+  }
+}
