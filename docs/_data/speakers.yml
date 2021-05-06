@@ -63,7 +63,7 @@ speakers:
 
     - id-speaker: 4
       name: "Daniela Sfregola"
-      bio: "Daniela is an active contributor to the Scala Community, author of Get Programming with Scala and maintainer of open source projects (the most popular ones are twitter4s and random-data-generator). Daniela is also co-organizer of the London Scala User Group (LSUG) Meetup."
+      bio: "Daniela is an active contributor to the Scala Community, author of the book, Get Programming with Scala, by Manning and maintainer of open source projects (the most popular ones are twitter4s and random-data-generator)."
       avatar: /img/speakers/daniela-sfregola.jpg
       social:
         - {name: "twitter", link: "https://twitter.com/danielasfregola"}
