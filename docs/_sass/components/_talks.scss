@@ -16,7 +16,7 @@
 
       &:nth-child(2) {
         margin-bottom: -$grid-line-base;
-        border-bottom: 1px dashed rgba($gray-primary, 0.14);
+        border-bottom: 2px dashed rgba($gray-primary, 0.1);
       }
       &:first-child,
       &:last-child {
