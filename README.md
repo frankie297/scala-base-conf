@@ -1,6 +1,6 @@
-# Scalabase Conf 14 May 2021 
-Scalabase is a new mini-conference that will run on the 14th of May, right before this year's ScalaCon. 
-It's aimed at developers who are relatively new to Scala (<= 3 years experience). 
+# Scalabase Conference - Part II - October 28th, 2021
+
+Scalabase is a new mini-conference running in conjunction with ScalaCon that's aimed at developers who are relatively new to Scala (<= 3 years experience). 
 
 ## Vision
 Scalabase is a welcoming and safe space for developers who are in the early stages of their Scala journeys. 
@@ -29,15 +29,15 @@ In this case, we offer speakers the opportunity to practice their talk with a co
 We're looking for Scala developers who are interested in mentoring a junior dev on preparing a talk. 
 We are looking for experienced developers who are willing to dedicate an hour a week for 3-4 weeks to guide and give advice to a junior colleague. 
 We are hoping this will help increase the pool of potential conference speakers in the future. 
-If you are such a person (or you know someone who would be interested), please get in touch! Our email address is scalabase@googlegroups.com.
+If you are such a person (or you know someone who would be interested), please get in touch! Our email address is info@scalabaseconf.com
 
 ## Attendees
 This conference is free! Registration and sign-up details will be available soon. 
 
-It will run on Friday 14 May in UK time (sometime between 10am - 4pm, we will confirm exact times soon). It will be online!
+The conference runs on October 28th and will be virtual. More details on the timezone will be available soon. 
 
 ## Contact us
-Our email address is scalabase@googlegroups.com
+info@scalabaseconf.com
 
 ## Team
-We are Frankie, Maria, Noel, Sabina and Amina as well as our dear friends at 47 Degrees and ScalaCon ❤️
+ScalaCon is organized by 47 Degrees in partnership with ScalaCon and program committee Amina, Noel, and Frankie. 
