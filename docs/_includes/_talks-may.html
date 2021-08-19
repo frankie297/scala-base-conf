@@ -1,0 +1,34 @@
+<section id="site-talks">
+  <div class="wrapper">
+    {% for talk in site.data.talks.talks %}
+    <h2 id="{{talk.id}}">{{talk.title}}</h2>
+    <div class="talks-list">
+      {% for talkslist in talk.talks-list %}
+      {% for speakers in site.data.speakers.speakers %}
+        {% for speakerslist in speakers.speakers-list %}
+
+
+        {% if speakerslist.id-speaker == talkslist.id-talk %}
+      <div class="talk-item">
+
+        <div class="talk-item-avatar">
+          <img src="{{speakerslist.avatar}}" title="{{speakerslist.name}}"/>
+        </div>
+        <div class="talk-item-content">
+          <h3>{{talkslist.title}}</h3>
+          <p class="talk-speaker">{{speakerslist.name}}</p>
+          <p class="talk-date"><i class="fas fa-clock"></i>{{talkslist.time}}</p>
+          <p class="talk-description">{{talkslist.description}}</p>
+        </div>
+
+
+      </div>
+      {% endif %}
+      {% endfor %}
+      {% endfor %}
+      {% endfor %}
+    </div>
+    {% endfor %}
+
+  </div>
+</section>

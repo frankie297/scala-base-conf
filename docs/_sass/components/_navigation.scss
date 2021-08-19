@@ -53,6 +53,16 @@
             color: $link-hover;
           }
         }
+        &:last-child {
+
+          a {
+            padding: $base-point-grid * 2 $base-point-grid * 4;
+            font-size: 0.875rem;
+            background: $brand-primary;
+            text-transform: none;
+            color: $white;
+          }
+        }
       }
     }
   }

@@ -1,0 +1,21 @@
+<section id="site-speakers">
+  <div class="wrapper">
+    {% for speaker in site.data.speakers-may.speakers %}
+    <h2 id="{{speaker.id}}">{{speaker.title}}</h2>
+    <div class="speakers-list">
+      {% for speakerslist in speaker.speakers-list %}
+      <div class="speaker-item">
+        <img src="{{speakerslist.avatar}}" title="{{speakerslist.name}}"/>
+        <h3 class="speaker-name">{{speakerslist.name}}</h3>
+        <p class="speaker-bio">{{speakerslist.bio}}</p>
+        <ul class="speaker-social">
+          {% for social in speakerslist.social %}
+          <li><a href="{{ social.link }}"><i class="fab fa-{{ social.name }}"></i></a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+    </div>
+    {% endfor %}
+  </div>
+</section>

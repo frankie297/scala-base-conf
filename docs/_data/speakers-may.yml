@@ -1,0 +1,71 @@
+speakers:
+
+- title: Speakers
+  id: speakers
+
+  speakers-list:
+
+    - id-speaker: 1
+      name: "Amina Adewusi"
+      bio: "Amina is a Scala engineer at the Guardian working in developer tooling. Prior to teaching herself how to code she worked in investment and finance across Sub-Saharan Africa."
+      avatar: /img/speakers/amina-adewusi.jpg
+      social:
+        - {name: "twitter", link: "https://twitter.com/a_adewusi"}
+        - {name: "github", link: "https://github.com/Nirvikalpa108"}
+        - {name: "linkedin", link: "https://www.linkedin.com/in/adewusi?originalSubdomain=uk"}
+
+    - id-speaker: 2
+      name: "Frankie Hammond"
+      bio: "Frankie is a software engineer at the Guardian. She used to be a graphic designer and taught herself how to code."
+      avatar: /img/speakers/frankie-hammond.jpg
+      social:
+        - {name: "twitter", link: "https://twitter.com/frankie_hammond"}
+        - {name: "github", link: "https://github.com/frankie297"}
+        - {name: "linkedin", link: "https://www.linkedin.com/in/francesca-hammond-044a3a21/?originalSubdomain=uk"}
+
+    - id-speaker: 2
+      name: "Marjan Kalanaki"
+      bio: "Marjan is a software engineer at the Guardian. Prior to this she worked as a developer at Asos and the Trainline. She has a degree in Sound Design Technology."
+      avatar: /img/speakers/marjan-kalanaki.jpg
+      social:
+        - {name: "twitter", link: "https://twitter.com/marji_sound"}
+        - {name: "github", link: "https://github.com/marjisound"}
+        - {name: "linkedin", link: "https://www.linkedin.com/in/marjan-kalanaki-44084449/"}
+
+    - id-speaker: 5
+      name: "Emily Misoni"
+      bio: "Emily is an Associate Data Engineer working in the Core Data Platform team at Just Eat Takeaway. Coming from an Electrical Engineering university background/having undertaken a range of internships in financial services, she found my passion for tech last year, and now spends her days coding in Python/Scala. "
+      avatar: /img/speakers/emily-misoni.jpg
+      social:
+        - {name: "linkedin", link: "https://www.linkedin.com/in/emily-m-ab83741ab/"}
+
+    - id-speaker: 3
+      name: "Asjad Baig"
+      bio: "Asjad is a programmer currently working with ThoughtWorks. He is passionate about functional programming, open source and us currently trying to connect the dots with category theory!"
+      avatar: /img/speakers/asjad-baig.jpg
+      social:
+        - {name: "twitter", link: "https://twitter.com/AsjadSB"}
+        - {name: "linkedin", link: "https://www.linkedin.com/in/asjad-baig-28b723129/?originalSubdomain=in"}
+
+    - id-speaker: 6
+      name: "Daniel Oakey"
+      bio: "Daniel is a Scala software engineer working at Quantexa in central London. There, he works on tools for modelling and processing data."
+      avatar: /img/speakers/daniel-oakey.jpg
+
+    - id-speaker: 7
+      name: "Noel Markham"
+      bio: "Noel is a lead software engineer at 47 Degrees. He started out as a Java developer before discovering Scala in 2012. He's worked across many industries, including games, fashion, television and finance. When not writing code he can be found playing board games, or running somewhere."
+      avatar: /img/speakers/noel-markham.jpg
+      social:
+        - {name: "twitter", link: "https://twitter.com/noelmarkham"}
+        - {name: "github", link: "https://github.com/noelmarkham"}
+        - {name: "linkedin", link: "https://www.linkedin.com/in/noelmarkham/"}
+
+    - id-speaker: 4
+      name: "Daniela Sfregola"
+      bio: "Daniela is an active contributor to the Scala Community, author of the book, Get Programming with Scala, by Manning and maintainer of open source projects (the most popular ones are twitter4s and random-data-generator)."
+      avatar: /img/speakers/daniela-sfregola.jpg
+      social:
+        - {name: "twitter", link: "https://twitter.com/danielasfregola"}
+        - {name: "github", link: "https://github.com/DanielaSfregola"}
+        - {name: "linkedin", link: "https://www.linkedin.com/in/danielasfregola/"}

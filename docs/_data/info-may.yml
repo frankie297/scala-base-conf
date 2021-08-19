@@ -1,8 +1,8 @@
 info-conf:
-  date: "28th of October"
-  cta-title: "Register for free"
-  cta-url: "https://scalabase-conference-nov-21.eventbrite.com"
-  register-text: "Interested in our conference? It's free"
+  date: "14th of May"
+  cta-title: "Watch Talks"
+  cta-url: "https://www.youtube.com/channel/UCDjYJrnEW42ETflR6-iZtmA"
+  register-text: "You can watch all the Scalabase talks on YouTube"
   speaking-info: "Interested in speaking at a forthcoming Scalabase conference? <a href='https://www.papercall.io/scalabase-conf'>Sign up here</a>"
   footer-brand: /img/assets/footer-brand.svg
   social-image: /img/assets/social-image.png

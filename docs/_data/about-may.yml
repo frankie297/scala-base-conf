@@ -1,0 +1,18 @@
+about:
+
+- title: About Scalabase
+  id: about
+
+  aboutfeatures:
+
+    - title: Conference
+      description: This conference is designed to be a welcoming and safe space for developers in the early stages of their journey with Scala.
+      icon: /img/assets/icon-conference.svg
+
+    - title: Speakers
+      description: Scalabase features talks specifically aimed at developers at the early stage of their Scala journey and most of the speakers are early career Scala developers.
+      icon: /img/assets/icon-speakers.svg
+
+    - title: Attendees
+      description: A diverse range of 650+ attendees from around the globe joined us for the first edition.
+      icon: /img/assets/icon-attendees.svg

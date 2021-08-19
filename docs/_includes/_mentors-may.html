@@ -1,0 +1,25 @@
+<section id="site-mentors">
+  <div class="wrapper">
+    {% for speaker in site.data.mentors-may.mentors %}
+    <h2 id="{{speaker.id}}">{{speaker.title}}</h2>
+    <div class="mentors-list slideshow-container">
+      {% for speakerslist in speaker.speakers-list %}
+      <div class="mentor-item mySlides fade">
+        <img src="{{speakerslist.avatar}}" title="{{speakerslist.name}}"/>
+        <h3 class="mentor-name">{{speakerslist.name}}</h3>
+        <p class="mentor-bio">{{speakerslist.bio}}</p>
+        <a class="prev" onclick="plusSlides(-1)"><i class="far fa-chevron-left"></i></a>
+        <a class="next" onclick="plusSlides(1)"><i class="far fa-chevron-right"></i></a>
+      </div>
+      {% endfor %}
+
+    </div>
+    <div class="mentors-slide-paginate">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+    {% endfor %}
+  </div>
+</section>
